@@ -92,12 +92,12 @@
   border: 1px solid var(--button-border);
 }
 
-.header__theme-menu-item:focus {
+.header__theme-menu-button:focus {
   border: 0;
   outline: 0;
 }
 
-.header__theme-menu-item:focus-visible {
+.header__theme-menu-button:focus-visible {
   outline: 0;
   border-bottom: 1px solid var(--button-color);
 }
