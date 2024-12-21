@@ -17,7 +17,7 @@
   --button-border: rgba(50 49 45 / 0.4);
   --font-family: "IBM Plex Mono", sans-serif;
   --image-cover: url('../images/cover-image-light.png');
-  --background-page: #FFF1F7; 
+  --background-page: #FFF1F7;
 }
 
 @media (prefers-color-scheme: light) {
@@ -30,22 +30,20 @@
     --article-color: #353430;
     --button-border: rgba(50 49 45 / 0.4);
     --font-family: "IBM Plex Mono", sans-serif;
-    --image-cover: url('../images/cover-image-light.png'); 
-    --background-page: #FFF1F7; 
+    --image-cover: url('../images/cover-image-light.png');
+    --background-page: #FFF1F7;
   }
 
-  .REC {
+  .header__decorate {
     display: none;
   }
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  background-color: #FFF1F7;  
+  background-color: #FFF1F7;
 }
 
-
-.theme-light .REC {
+.theme-light .header__decorate {
   display: none;
 }
-
